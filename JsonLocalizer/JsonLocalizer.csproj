@@ -55,6 +55,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
@@ -81,6 +82,7 @@
     <Compile Include="Base\BaseNotifyChanged.cs" />
     <Compile Include="Contracts\ILanguage.cs" />
     <Compile Include="Contracts\ILocalizationKey.cs" />
+    <Compile Include="Helpers\DialogService.cs" />
     <Compile Include="Helpers\FilesystemHelper.cs" />
     <Compile Include="Helpers\JsonHelper.cs" />
     <Compile Include="Models\Language.cs" />

@@ -97,7 +97,7 @@
         <StackPanel Grid.Row="3"
                     Grid.Column="8">
             <Button Margin="0,5,0,5"
-                    IsEnabled="{Binding Path=AreKeyOperationsEnabled}"
+                    IsEnabled="{Binding Path=CanSyncKeys}"
                     Height="50"
                     HorizontalAlignment="Stretch"
                     Content="Sync Keys"
@@ -106,7 +106,7 @@
         <StackPanel Grid.Row="5"
                     Grid.Column="8">
             <Button Margin="0,5,0,5"
-                    IsEnabled="{Binding Path=AreKeyOperationsEnabled}"
+                    IsEnabled="{Binding Path=CanAddKey}"
                     Height="50"
                     HorizontalAlignment="Stretch"
                     Content="Add Key"
@@ -115,7 +115,7 @@
         <StackPanel Grid.Row="7"
                     Grid.Column="8">
             <Button Margin="0,5,0,5"
-                    IsEnabled="{Binding Path=AreKeyOperationsEnabled}"
+                    IsEnabled="{Binding Path=CanDeleteKey}"
                     Height="50"
                     HorizontalAlignment="Stretch"
                     Content="Del Key"
@@ -124,7 +124,7 @@
         <StackPanel Grid.Row="9"
                     Grid.Column="8">
             <Button Margin="0,5,0,5"
-                    IsEnabled="{Binding Path=AreKeyOperationsEnabled}"
+                    IsEnabled="{Binding Path=HasChanges}"
                     Height="50"
                     HorizontalAlignment="Stretch"
                     Content="Save"

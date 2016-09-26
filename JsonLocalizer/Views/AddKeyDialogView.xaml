@@ -83,8 +83,8 @@
                 Click="CancelButton_Click" />
 
         <Label Content="Key Name is invalid!"
-               Grid.Row="5"
                Visibility="{Binding Path=IsInvalid, Converter={StaticResource BoolToVis}, FallbackValue=Hidden}"
+               Grid.Row="7"
                Grid.Column="1"
                Grid.ColumnSpan="3"
                HorizontalContentAlignment="Center"
